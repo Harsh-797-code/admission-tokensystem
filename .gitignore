@@ -1,0 +1,52 @@
+# ==========================================
+# Operating System & IDE Files
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ==========================================
+# Environment Variables & Secrets (CRITICAL)
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ==========================================
+# Data Files (KEA Lists & Student Data)
+# ==========================================
+*.csv
+*.xlsx
+*.json
+!package.json
+!package-lock.json
+
+# ==========================================
+# Node.js (harshitha's backend)
+# ==========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# ==========================================
+# Python (Dhruv & Chinmay)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+*.sqlite3
+
+# ==========================================
+# Docker & Logs
+# ==========================================
+logs/
+*.log
